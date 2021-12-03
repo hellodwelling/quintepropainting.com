@@ -1,0 +1,460 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Quinte Pro Painting" property="og:title">
+
+    
+        <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/ee96fe47-472a-4ea2-8f4a-3e1917b40d1d214222319_1237488620040256_2128071469184306436_n.jpg" property="og:image">
+        <meta content="Quinte Pro Painting" property="twitter:title">
+        <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/ee96fe47-472a-4ea2-8f4a-3e1917b40d1d214222319_1237488620040256_2128071469184306436_n.jpg" property="twitter:image">
+        <link href="https://landing-page-app-hero-images.s3.amazonaws.com/media/ee96fe47-472a-4ea2-8f4a-3e1917b40d1d214222319_1237488620040256_2128071469184306436_n.jpg" rel="shortcut icon" type="image/x-icon">
+        <link href="https://landing-page-app-hero-images.s3.amazonaws.com/media/ee96fe47-472a-4ea2-8f4a-3e1917b40d1d214222319_1237488620040256_2128071469184306436_n.jpg" rel="apple-touch-icon">     
+    
+    <title>
+         
+            Belleville, Ontario - Expert Painting | Quinte Pro Painting
+        
+    </title>
+    <meta name="description" content="Schedule your free quote today! Proudly serving 
+         
+            Belleville, Ontario & surrounding areas.
+         
+        Quinte Pro Painting is Belleville, Ontario&#x27;s most trusted Painting service. We are a family owned and operated business started by Dan Toulouse and offer a …"
+    >
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4f07488cb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+       
+     
+    
+    
+    <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/style.css" rel="stylesheet">
+    
+    <link href="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.css" rel="stylesheet">
+     <!-- <script src="/staticfiles/landing_page_gen/render.js"></script>   -->
+    <script src="https://prophone.herokuapp.com/staticfiles/landing_page_gen/render.js"></script> 
+</head>
+
+<body>
+
+<div class = "flex w-full flex-col">  
+    
+
+<div class="fixed z-40 w-full lg:h-25 lg:py-4 items-start justify-start  bg-black text-white  dark-mode:text-gray-200 dark-mode:bg-gray-800">
+  <div x-data="{ open: false }" class="flex flex-col lg:flex-r max-w-screen-xl px-4 mx-auto lg:items-center lg:justify-between lg:flex-row lg:px-6 lg:px-8">
+    <div class="py-4 flex flex-row items-center justify-between">
+      
+        <a href= " index "> <img class="h-16 w-auto relative" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ee96fe47-472a-4ea2-8f4a-3e1917b40d1d214222319_1237488620040256_2128071469184306436_n.jpg" alt="Quinte Pro Painting logo"> </a>
+      
+      <button class="lg:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+          <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+          <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </div>
+    <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 lg:pb-0 hidden lg:flex lg:flex-row  lg:justify-center ">
+    
+      
+<a 
+    class="px-4 py-2 mt-2 text-lg  font-bold bg-transparent rounded-lg lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" 
+    href="index">About Us
+</a>
+      
+      
+<a 
+    class="px-4 py-2 mt-2 text-lg  font-bold bg-transparent rounded-lg lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" 
+    href="services">Our Services
+</a>
+ 
+      
+        
+
+<div id='mobile-dropdown-parent' onclick='toggleDropDownMobile()' class="px-4 py-2 mt-2 text-lg font-bold bg-transparent rounded-lg lg:mt-0 lg:ml-4 group flex flex-col relative ">
+    <div> Galleries
+        <i class="fa fa-caret-down"></i>
+    </div>
+    <!-- for desktop -->
+    <div class="hidden lg:group-hover:opacity-100 lg:opacity-0 transition duration-500 ease-in-out lg:flex flex-col bg-white z-50 w-full min-w-max absolute top-10 shadow-lg rounded-md px-4 py-4 space-y-3">
+        
+            <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Interior-Painting-Service"> Interior Painting Service </a>
+        
+            <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Exterior-Painting-Service"> Exterior Painting Service </a>
+        
+            <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Remodeling-Repair"> Remodeling &amp; Repair </a>
+        
+    </div> 
+    <!-- for mobile b/c can't enable tailwind variants w/o postcss build -->
+    <div id='mobile-dropdown' class="lg:hidden hidden transition duration-500 ease-in-out flex flex-col bg-white z-50 w-full min-w-max absolute top-10 shadow-lg rounded-md px-4 py-4 space-y-3">
+        
+            <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Interior-Painting-Service"> Interior Painting Service </a>
+        
+            <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Exterior-Painting-Service"> Exterior Painting Service </a>
+        
+            <a class="transparent rounded-lg text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="gallery-Remodeling-Repair"> Remodeling &amp; Repair </a>
+        
+    </div> 
+
+</div>
+
+
+  
+      
+           
+      
+<a 
+    class="px-4 py-2 mt-2 text-lg  font-bold bg-transparent rounded-lg lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" 
+    href="testimonials">Testimonials &amp; Reviews
+</a>
+ 
+              
+    
+  
+
+
+    
+      <div class = "px-4 py-2 lg:pb-3 mt-2 text-xl font-bold bg-transparent rounded-lg lg:mt-0 lg:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline "x-data="{open: false}">
+      
+          <a target = "_blank"  x-on:click.prevent="open = true" class="" href="">Send Us a Text</a>
+            <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
+            <h3 class="mb-6 text-2xl font-medium text-black text-center">Send Us a Text</h3>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="first-name" id="0-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="last-name" id="0-last-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Last Name">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="phone-number" id="0-phone-number" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Phone Number">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <textarea name="message" cols="5" id="0-message" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="What is your message?"></textarea>
+        </div>
+        <div class="block">
+        <button type="button" 
+         
+        onclick= "send_sms(0, 'Quinte-Pro-Painting')" 
+        class="w-full px-3 py-4 font-bold font-lg text-white  bg-black text-white  hover:bg-red-500   hover:text-black  rounded-lg">Send</button> 
+        </div>           
+
+    </form>
+</div>
+           
+      
+        
+    </nav>
+  </div>
+</div>
+
+
+    
+        
+        
+            
+                
+    
+    
+    
+ 
+    <div id="" class="flex text-center justify-center items-center  w-full lg:w-auto " x-data="{open: false}">
+        
+<button 
+ id="side-button" type="button" x-on:click.prevent="open = true" class=" 
+  
+
+   mb-3 fixed bottom-0 -right-80 z-10 mr-3 md:mr-0 z-40 inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-black text-white  hover:bg-red-500   hover:text-black  z-30">
+    <h5 class="text-3xl font-extrabold">Send Us a Text</h5> 
+</button>
+
+        <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
+            <h3 class="mb-6 text-2xl font-medium text-black text-center">Send Us a Text</h3>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="first-name" id="2-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="last-name" id="2-last-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Last Name">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="phone-number" id="2-phone-number" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Phone Number">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <textarea name="message" cols="5" id="2-message" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="What is your message?"></textarea>
+        </div>
+        <div class="block">
+        <button type="button" 
+         
+        onclick= "send_sms(2, 'Quinte-Pro-Painting')" 
+        class="w-full px-3 py-4 font-bold font-lg text-white  bg-black text-white  hover:bg-red-500   hover:text-black  rounded-lg">Send</button> 
+        </div>           
+
+    </form>
+</div>
+    </div>
+
+
+
+    <div id="our-work" class="relative mb-0 w-full pt-12 overflow-hidden  mt-24   bg-black text-white  md:pt-20 xl:pt-20 xl:pb-20">
+        <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
+            <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Interior Painting Service</h2>
+            <h2 class="my-3 mb-10 text-xl font-medium  text-red-500  text-center">Our Best Work</h2>
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/31YVZ5WEKQNBPDEOO497LKJR0GCR3LSRMA7BGBGC.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/JWQN0GRACRNJM5ORBV9W9JELRZDXIVSCD66XGE2O.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/T5CNIP21SKMW55D1TYXS8LMPTI8AW1M43E6J2DCT.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/ESADU2XX71KJQUP861YDT1LX0WHG094LUTKTN8QV.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/QIQFC1JR364ASO93OOFZUSITIF9URQ3CL9PJJ8EX.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/TPYLQ6PTDKU4CR5O43QJ59UQ4ULSLI4DOU3ZQJN3.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/4RGXV33HW84WSGG1K0UFV1TM9RY6LX65VYOJ93FG.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/36KVWNMVYDOUU5BTLTSG9VE2Y2MPYKTTKFJTK8KJ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/EO5YDLZPGU4Z4KFP9A7ZZHIGENWI25P4SEC4UODD.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/1EMHHRZFTQCUOVYDF4Y4NDGWLFJO6XREIR77K6BH.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/7QIQVUBQA5JMCSDO35FCG5J2SVFZVDHU9RRAX89R.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/RIW428MT2B4CWMSJQ6G9UPBS7YWNGPKG9O66MXVB.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/QORCBK1BBNVO8P5ZIZM9M18YEU969POMUER18Z7V.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/ZB4DT3MPF5GNI6FLHC53IB5L43H8ZFDSDRGC28EJ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/ZOCNJRSHDE0ZPVF0B7H5XBQVGGT03A06L38HEZO3.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/IG61OKFHE6MOQVJRORVOLU7RKNTOGOSPFOG56HC0.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/MAWCB3D7O6V8AGP35SPRZ2SAWZRUKYEDXW3R9C0G.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/0VUKD5EQGL40QTYKCVPDTG3858ZSC2XQVK3U4Y1Z.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/9Z6MHFJ8P50VUJDUXBVZ3LLLRKKSEFLOFZ7O0V0Q.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/QSS68ZSJ04E6EIMUNHOQQRO2I5K0HDE88G0PSLPH.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/MCW33Q89GXN1XHYKTR7LNR2MOJEP3HVRPDLDHFW6.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/880WL59R0BFSY8SQSGY5EE40GXDBXUYSZUKJA3B5.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/W1J6L8BOJOC7EKG4NH6FV3ZM5868JOIT1ZRQWJWD.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/9S0KSWSIVKLLAH9A3MUSBQX7DPK5K9519E57BMRZ.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/02UA19ILYJ0GHHFWBQAVWNZYTOC85SL95N567R4Q.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/GY7F9HRRZFXVYM28KKPSKVO5VVP17WRFP8V39GP1.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/X2QKZSKBI8O6W6JI64UIHEEU69VCJ4EJ3TEP8WD7.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/AL47J46H67I6JZD3NB0VXV2KTM6SRQKXYWQPGOHO.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/2Q0T9FQ8VZUNWRX8OX7KZ0EWXZKBAEZIC7I5MG3R.jpeg', 'photo'],    [ 'https://d3p2r6ofnvoe67.cloudfront.net/fit-in/1026x720/media/10ZZOLFN0GZ99UOGCSB89TPGDITQU46NFN5ZD4Q1.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/31YVZ5WEKQNBPDEOO497LKJR0GCR3LSRMA7BGBGC.jpeg"  alt = "Photo number 37 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/JWQN0GRACRNJM5ORBV9W9JELRZDXIVSCD66XGE2O.jpeg"  alt = "Photo number 20 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/T5CNIP21SKMW55D1TYXS8LMPTI8AW1M43E6J2DCT.jpeg"  alt = "Photo number 21 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ESADU2XX71KJQUP861YDT1LX0WHG094LUTKTN8QV.jpeg"  alt = "Photo number 22 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/QIQFC1JR364ASO93OOFZUSITIF9URQ3CL9PJJ8EX.jpeg"  alt = "Photo number 23 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/TPYLQ6PTDKU4CR5O43QJ59UQ4ULSLI4DOU3ZQJN3.jpeg"  alt = "Photo number 24 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/4RGXV33HW84WSGG1K0UFV1TM9RY6LX65VYOJ93FG.jpeg"  alt = "Photo number 26 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/36KVWNMVYDOUU5BTLTSG9VE2Y2MPYKTTKFJTK8KJ.jpeg"  alt = "Photo number 27 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/EO5YDLZPGU4Z4KFP9A7ZZHIGENWI25P4SEC4UODD.jpeg"  alt = "Photo number 28 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1EMHHRZFTQCUOVYDF4Y4NDGWLFJO6XREIR77K6BH.jpeg"  alt = "Photo number 29 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/7QIQVUBQA5JMCSDO35FCG5J2SVFZVDHU9RRAX89R.jpeg"  alt = "Photo number 30 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/RIW428MT2B4CWMSJQ6G9UPBS7YWNGPKG9O66MXVB.jpeg"  alt = "Photo number 36 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/QORCBK1BBNVO8P5ZIZM9M18YEU969POMUER18Z7V.jpeg"  alt = "Photo number 38 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ZB4DT3MPF5GNI6FLHC53IB5L43H8ZFDSDRGC28EJ.jpeg"  alt = "Photo number 40 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/ZOCNJRSHDE0ZPVF0B7H5XBQVGGT03A06L38HEZO3.jpeg"  alt = "Photo number 41 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/IG61OKFHE6MOQVJRORVOLU7RKNTOGOSPFOG56HC0.jpeg"  alt = "Photo number 42 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/MAWCB3D7O6V8AGP35SPRZ2SAWZRUKYEDXW3R9C0G.jpeg"  alt = "Photo number 43 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/0VUKD5EQGL40QTYKCVPDTG3858ZSC2XQVK3U4Y1Z.jpeg"  alt = "Photo number 44 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9Z6MHFJ8P50VUJDUXBVZ3LLLRKKSEFLOFZ7O0V0Q.jpeg"  alt = "Photo number 45 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/QSS68ZSJ04E6EIMUNHOQQRO2I5K0HDE88G0PSLPH.jpeg"  alt = "Photo number 48 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/MCW33Q89GXN1XHYKTR7LNR2MOJEP3HVRPDLDHFW6.jpeg"  alt = "Photo number 49 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/880WL59R0BFSY8SQSGY5EE40GXDBXUYSZUKJA3B5.jpeg"  alt = "Photo number 50 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 22; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/W1J6L8BOJOC7EKG4NH6FV3ZM5868JOIT1ZRQWJWD.jpeg"  alt = "Photo number 51 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 23; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/9S0KSWSIVKLLAH9A3MUSBQX7DPK5K9519E57BMRZ.jpeg"  alt = "Photo number 52 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 24; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/02UA19ILYJ0GHHFWBQAVWNZYTOC85SL95N567R4Q.jpeg"  alt = "Photo number 53 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 25; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/GY7F9HRRZFXVYM28KKPSKVO5VVP17WRFP8V39GP1.jpeg"  alt = "Photo number 54 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 26; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/X2QKZSKBI8O6W6JI64UIHEEU69VCJ4EJ3TEP8WD7.jpeg"  alt = "Photo number 55 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 27; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/AL47J46H67I6JZD3NB0VXV2KTM6SRQKXYWQPGOHO.jpeg"  alt = "Photo number 17 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 28; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2Q0T9FQ8VZUNWRX8OX7KZ0EWXZKBAEZIC7I5MG3R.jpeg"  alt = "Photo number 18 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 29; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/10ZZOLFN0GZ99UOGCSB89TPGDITQU46NFN5ZD4Q1.jpeg"  alt = "Photo number 19 of Quinte Pro Painting&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                 
+                                    
+        
+                <div class="z-50 fixed top-0 left-0 w-full h-full flex items-center justify-center" x-show.transition="open" >
+
+
+                
+                
+                    <div class="flex items-center justify-start w-12  ml-6 md:m-2 z-50 absolute bottom-1/4 md:bottom-0 transform translate-x-12 md:translate-x-32" >
+                    <button
+                    
+                            class="text-white w-12 h-12 rounded-full flex items-center justify-center focus:outline-none bg-red-500"                                
+                            @click="open = false">
+                         <span class = "text-white"> <i class="fas fa-lg fa-times"></i> </span>
+                    </button>
+                    </div>
+
+                    <div class= "h-90 w-90 flex items-center justify-center overflow-hidden">
+
+                        <template  x-for="(slide, index, collection) in slides" :key="index">
+                            <div class="h-full w-full flex items-center justify-center absolute">
+                                <div class="absolute top-0 bottom-0 py-2  px-2 flex flex-col items-center justify-center"
+                                    x-show="activeSlide === index" 
+                                    x-transition:enter="transition ease-out duration-150"
+                                    x-transition:enter-start="opacity-0 transform scale-90"
+                                    x-transition:enter-end="opacity-100 transform scale-100"
+                                    x-transition:leave="transition ease-in duration-150"
+                                    x-transition:leave-start="opacity-100 transform scale-100"
+                                    x-transition:leave-end="opacity-0 transform scale-90">
+
+                                    <template x-if="slide[1] === 'photo' ">
+                                        <img :src="slide[0]" class="object-contain max-w-full max-h-full rounded shadow-lg" />
+                                    </template>
+                                    
+                                    <template x-if="slide[1] != 'photo'  ">
+                                        <video class="object-contain max-w-full max-h-full rounded shadow-lg"  controls> <source :src="slide[0]" >
+                                        </video>
+                                    </template> 
+                                    
+                                </div>
+                                <div  class="fixed text-red-500 text-sm font-bold bottom-0 transform -translate-x-10 w-40 h-12 mb-2 hidden md:flex justify-center items-center"
+                                    x-show="activeSlide === index">
+                                    <span class="w-12 text-right" x-text="index + 1"></span>
+                                    <span class="w-4 text-center">/</span>
+                                    <span class="w-12 text-left" x-text="slides.length"></span>
+                                </div>
+                            </div>
+                        </template>
+
+                    <div class="fixed md:fixed z-50 absolute bottom-1/4 md:bottom-0 md:mb-2 transform -translate-x-8 md:-translate-x-10 flex justify-center" @click.away="open = false">
+                        <div class="flex items-center justify-end w-12 mr-3 md:mr-16">
+                        <button 
+                                type="button"
+                                
+                                class="w-12 h-12 rounded-full focus:outline-none flex items-center justify-center bg-red-500" 
+                               
+                                @click="activeSlide = activeSlide === 0 ? slides.length - 1 : activeSlide - 1">
+                                <span class = "text-white"> <i class="fas fa-lg fa-chevron-left"></i> </span>
+                           
+                        </button>
+                        </div>
+                        <div class="flex items-center justify-start w-12 md:ml-16">
+                        <button 
+                                type="button"
+                                
+                                class="text-white font-bold w-12 h-12 rounded-full focus:outline-none flex items-center justify-center  bg-red-500   "
+                               
+                                @click="activeSlide = activeSlide === slides.length - 1 ? 0 : activeSlide + 1">
+                           <span class = "text-white"> <i class="fas fa-lg fa-chevron-right"></i> </span>
+                        </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </div>     
+
+            
+</div>
+            
+        
+        
+            
+        
+        
+            
+        
+    
+
+<section  class="py-10 bg-black-900">
+    
+        <div class="flex flex-col justify-around text-center md:flex-row">
+            <p class="order-last text-sm leading-tight text-red-500 md:order-first"> Crafted with <a  href="https://www.prophone.com/prosite" class=" text-black ">ProPhone</a>. Built with ❤️ by our team. </p>
+             
+            <ul class="flex flex-row flex-wrap text-center justify-center pb-3 lg:-ml-4 lg:-mr-4 text-sm">
+                <li> <a  href="#about" class="px-2 md:px-4 text-red-500 hover:text-white">About Us</a> </li>
+                
+                <li> <a  href="#services" class="px-2 md:px-4 text-red-500 hover:text-white">Our Services</a> </li>
+                
+                
+                <li> <a  href="#our-work" class=" px-2 md:px-4 text-red-500 hover:text-white">Our Best Work</a> </li>
+                
+                
+                <li> <a  href="#testimonials" class="px-2 md:px-4 text-red-500 hover:text-white">Testimonials &amp; Reviews</a></li>
+                
+                
+                
+                
+                <li> <a  href="#find-us" class=" px-2 md:px-4 text-red-500 hover:text-white">Service Areas</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</section> 
+</div> 
+
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
